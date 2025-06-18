@@ -1,0 +1,28 @@
+/* styles.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 20px;
+  background-color: #fff;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

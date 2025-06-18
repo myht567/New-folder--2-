@@ -3,13 +3,23 @@
 <head>    
   <meta charset="UTF-8">  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-  <title>Delicious Bites Menu</title> 
+  <title>Delicious Bites Menu</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
-<body>   
-  <h1>Delicious Bites Menu</h1>
+<body class="menu-page">   
 
-  <h2>Appetizers</h2>  
-  <ul>     
+  <ul class="navbar">
+    <li><a href="#appetizers">Appetizers</a></li>
+    <li><a href="#main-courses">Main Courses</a></li>
+    <li><a href="#desserts">Desserts</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+
+  <h1 class="title">Delicious Bites Menu</h1>
+
+  <h2 id="appetizers" class="section-heading">Appetizers</h2>  
+  <ul class="menu-section">     
     <li>
       <strong>Caprese Salad</strong>
       <p>Fresh tomatoes, mozzarella, and basil drizzled with balsamic glaze.</p>
@@ -24,8 +34,8 @@
     </li>
   </ul>  
 
-  <h2>Main Cou rses</h2> 
-  <ul>   
+  <h2 id="main-courses" class="section-heading">Main Courses</h2> 
+  <ul class="menu-section">   
     <li>
       <strong>Grilled Salmon</strong>
       <p>Salmon fillet seasoned and grilled to perfection, served with lemon butter sauce.</p>
@@ -40,8 +50,8 @@
     </li>
   </ul>   
 
-  <h2>Desserts</h2>  
-  <ul>     
+  <h2 id="desserts" class="section-heading">Desserts</h2>  
+  <ul class="menu-section">     
     <li>
       <strong>Chocolate Fondue</strong>
       <p>Assorted fruits and marshmallows served with rich chocolate fondue.</p>    
@@ -56,6 +66,6 @@
     </li>
   </ul> 
 
-  <p><a href="contact.html">Contact us for reservations</a></p> 
+  <p><a href="contact.html" class="contact-link">Contact us for reservations</a></p> 
 </body>
 </html>
